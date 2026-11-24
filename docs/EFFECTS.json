@@ -1,0 +1,47 @@
+{
+  "renderer": {
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "triangles": 65536,
+    "drawCalls": 1,
+    "webgl": 2,
+    "glsl": "300 es",
+    "dpr": 1,
+    "width": 320,
+    "height": 180
+  },
+  "controlBuffer": {
+    "width": 879,
+    "height": 686
+  },
+  "controls": {
+    "aperture": {
+      "fractionOver8": 0.32757539876018665,
+      "rmse": 41.75926103609537
+    },
+    "phase": {
+      "fractionOver8": 0.35401678955346155,
+      "rmse": 58.77810497945485
+    },
+    "ratio": {
+      "fractionOver8": 0.23207361930632808,
+      "rmse": 24.982437315831177
+    }
+  },
+  "loop": {
+    "wrap": {
+      "fractionOver8": 0.04555103367529362,
+      "rmse": 5.395593221825321
+    },
+    "step": {
+      "fractionOver8": 0.046401788409171564,
+      "rmse": 5.41812149916642
+    }
+  },
+  "pixelReplay": {
+    "comparisons": 100,
+    "exactMatches": 100,
+    "width": 320,
+    "height": 180
+  },
+  "scope": "readPixels comparison on the same browser, shader and renderer; not cross-GPU identity"
+}

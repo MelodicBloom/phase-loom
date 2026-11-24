@@ -1,0 +1,11 @@
+<!-- The workspace exports src/element.ts as its Web Component entry. -->
+<script type="module">
+  import './src/element.ts';
+  const loom = document.querySelector('phase-loom');
+  loom.configure({ aperture: 8, phase: 4, ratio: 1,
+                   tick: 0, yaw: 0, pitch: 0 });
+</script>
+<phase-loom style="display:block;width:100%;height:500px"></phase-loom>
+<!-- Changes: loom.configure(nextState)
+     Export: loom.capture()
+     Cleanup: remove the element; GPU resources are released. -->

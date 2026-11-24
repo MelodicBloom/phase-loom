@@ -1,0 +1,38 @@
+{
+  "protocol": "3 x 30s RAF intervals after 10s warmup; fixed 1280x720 drawing buffer, DPR 1; animated tick",
+  "diagnostics": {
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "triangles": 65536,
+    "drawCalls": 1,
+    "webgl": 2,
+    "glsl": "300 es",
+    "dpr": 1,
+    "width": 1280,
+    "height": 720
+  },
+  "runs": [
+    {
+      "samples": 111,
+      "p50": 266.7000000000007,
+      "p95": 550,
+      "p99": 699.9000000000015,
+      "fractionOver25": 0.8738738738738738
+    },
+    {
+      "samples": 122,
+      "p50": 249.89999999999418,
+      "p95": 483.29999999998836,
+      "p99": 533.2000000000044,
+      "fractionOver25": 0.9180327868852459
+    },
+    {
+      "samples": 124,
+      "p50": 233.3000000000029,
+      "p95": 483.29999999998836,
+      "p99": 583.3000000000029,
+      "fractionOver25": 0.8870967741935484
+    }
+  ],
+  "gate": "p95 <=20ms on a hardware GPU; software is reported separately",
+  "hardwareGate": "UNVERIFIED: this environment uses software rendering"
+}

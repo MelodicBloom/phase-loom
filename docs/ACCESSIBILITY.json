@@ -1,0 +1,26 @@
+[
+  {
+    "name": "desktop",
+    "violations": [],
+    "passes": 26,
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "name": "catalogue",
+    "violations": [],
+    "passes": 28,
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "name": "mobile",
+    "violations": [],
+    "passes": 26,
+    "incomplete": ["color-contrast"]
+  },
+  {
+    "name": "fallback",
+    "violations": [],
+    "passes": 27,
+    "incomplete": ["color-contrast"]
+  }
+]
