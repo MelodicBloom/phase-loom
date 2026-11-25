@@ -1,5 +1,7 @@
 # Phase Loom
 
+[Live instrument](https://phase-loom-live.vercel.app/) · [Live component catalogue](https://phase-loom-live.vercel.app/?view=catalogue&paused=1) · [Deployment verification](docs/DEPLOYMENT.md)
+
 A deterministic optical sculpture instrument by MelodicBloom, implemented with WebGL2 and custom GLSL ES 3.00 shaders.
 
 The folded band has 64 geometrically separated lamellae. Aperture changes its opening; phase changes alignment; a rational frequency pair changes the periodic fold. A 720-tick clock animates this configured surface. The copper/cobalt studio material is an artistic model, not calibrated thin-film optics.
